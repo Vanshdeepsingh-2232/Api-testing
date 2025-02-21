@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2"
-  }
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2"
+    },
+    "main": "apiTest.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node apiTest.js"
+    }
 }
